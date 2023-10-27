@@ -73,22 +73,21 @@ export const NavLink = styled.a`
 `;
 
 
-export const GitHubButton = styled.a`
-  border: 2px solid ${({ theme }) => theme.primary};
-  justify-content: center;
+export const Hambuttons = styled.a`
+ 
+  justify-content: left;
   display: flex;
-  align-items: center;
+  align-items: left;
   height: 70%;
-  border-radius: 20px;
+
   color: ${({ theme }) => theme.white};
   cursor: pointer;
-  padding: 0 20px;
+  padding: 0 0px;
   font-weight: 500;
   text-decoration: none;
   font-size: 16px;
   transition: all 0.6s ease-in-out;
     :hover {
-      background: ${({ theme }) => theme.primary};
       color: ${({ theme }) => theme.white};     
     }
     @media screen and (max-width: 768px) { 

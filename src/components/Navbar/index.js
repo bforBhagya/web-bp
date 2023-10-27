@@ -6,7 +6,7 @@ import {
   Span,
   NavLogo,
   NavItems,
-  GitHubButton,
+  Hambuttons,
   ButtonContainer,
   MobileIcon,
   MobileMenu,
@@ -51,28 +51,28 @@ const Navbar = () => {
           />
         </MobileIcon>
         <NavItems>
-        <NavLink href="#about">He</NavLink>
+          <NavLink href="#he">He</NavLink>
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#education">Education</NavLink>
           <NavLink href="#projects">Projects</NavLink>
+          <NavLink href="#contact">Contact</NavLink>
         </NavItems>
-        
+
         <ButtonContainer>
-        <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.linkedin} target="display">
-            <LinkedInIcon />
-          </SocialMediaIcon>
+          <SocialMediaIcons>
+            <SocialMediaIcon href={Bio.linkedin} target="display">
+              <LinkedInIcon />
+            </SocialMediaIcon>
 
-          <SocialMediaIcon href={Bio.insta} target="display">
-            <InstagramIcon />
-          </SocialMediaIcon>
+            <SocialMediaIcon href={Bio.insta} target="display">
+              <InstagramIcon />
+            </SocialMediaIcon>
 
-          <SocialMediaIcon href={Bio.github} target="display">
-            <FaGithub />
-          </SocialMediaIcon>
-        </SocialMediaIcons>
-         
+            <SocialMediaIcon href={Bio.github} target="display">
+              <FaGithub />
+            </SocialMediaIcon>
+          </SocialMediaIcons>
         </ButtonContainer>
         {isOpen && (
           <MobileMenu isOpen={isOpen}>
@@ -116,18 +116,19 @@ const Navbar = () => {
             >
               Education
             </MobileLink>
-            <GitHubButton
-              style={{
-                padding: "10px 16px",
-                background: `${theme.primary}`,
-                color: "white",
-                width: "max-content",
-              }}
-              href={Bio.github}
-              target="_blank"
-            >
-              Github Profile
-            </GitHubButton>
+            <Hambuttons>
+              <SocialMediaIcon href={Bio.linkedin} target="display">
+                <LinkedInIcon />
+              </SocialMediaIcon>
+
+              <SocialMediaIcon href={Bio.insta} target="display">
+                <InstagramIcon />
+              </SocialMediaIcon>
+
+              <SocialMediaIcon href={Bio.github} target="display">
+                <FaGithub />
+              </SocialMediaIcon>
+            </Hambuttons>
           </MobileMenu>
         )}
       </NavbarContainer>
