@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/bhagyaweb/static/css/main.ae7ec35b.css",
+    "main.js": "/bhagyaweb/static/js/main.f788b0f2.js",
+    "static/media/HeroImage.jpg": "/bhagyaweb/static/media/HeroImage.2448c383a19c39b9a1af.jpg",
+    "index.html": "/bhagyaweb/index.html",
+    "main.ae7ec35b.css.map": "/bhagyaweb/static/css/main.ae7ec35b.css.map",
+    "main.f788b0f2.js.map": "/bhagyaweb/static/js/main.f788b0f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae7ec35b.css",
+    "static/js/main.f788b0f2.js"
+  ]
+}
