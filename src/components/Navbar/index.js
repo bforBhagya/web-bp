@@ -51,7 +51,7 @@ const Navbar = () => {
           />
         </MobileIcon>
         <NavItems>
-          <NavLink href="#he">He</NavLink>
+          <NavLink href="#about">He</NavLink>
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#education">Education</NavLink>
@@ -82,7 +82,7 @@ const Navbar = () => {
                 setIsOpen(!isOpen);
               }}
             >
-              About
+              He
             </MobileLink>
             <MobileLink
               href="#skills"
@@ -115,6 +115,14 @@ const Navbar = () => {
               }}
             >
               Education
+            </MobileLink>
+            <MobileLink
+              href="#contact"
+              onClick={() => {
+                setIsOpen(!isOpen);
+              }}
+            >
+              Contact
             </MobileLink>
             <Hambuttons>
               <SocialMediaIcon href={Bio.linkedin} target="display">

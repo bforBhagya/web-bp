@@ -87,11 +87,13 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Nav>
+        <Nav> 
+           <NavLink href="#about">He</NavLink>
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#education">Education</NavLink>
           <NavLink href="#projects">Projects</NavLink>
+          
         </Nav>
         <Copyright>
           &copy; 2023 Bhagya Prabhashwara. All rights reserved.
